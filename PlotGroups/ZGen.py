@@ -130,7 +130,21 @@ info = {
         "Name" : "DY MiNNLO (arXiv:2006.04133)",
         "Style" : "qual12_orange",
         "Members" : [
-            "DYm50_minnlo_svn3756_hoppet"
+            "DYm50_minnlo_prod"
+        ]
+    },
+    "dy_nlo_ew" : {
+        "Name" : "DY NLOQCD+EW (arXiv:1612.02841)",
+        "Style" : "qual12_brown",
+        "Members" : [
+            "dy_nlo_ew"
+        ]
+    },
+   "dy_nlo_qcd" : {
+        "Name" : "DY NLOQCD (arXiv:1612.02841)",
+        "Style" : "qual12_green",
+        "Members" : [
+            "dy_nlo_qcd"
         ]
     },
     "dy_minnlo_svn3756_largeptscales" : {

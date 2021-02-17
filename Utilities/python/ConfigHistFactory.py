@@ -133,7 +133,7 @@ class ConfigHistFactory(object):
     def getListOfPlotObjects(self):
         return self.plot_objects.keys()
 def main():
-    test = ConfigHistFactory("/afs/cern.ch/user/k/kelong/work/AnalysisDatasetManager",
+    test = ConfigHistFactory("/afs/cern.ch/work/m/mumuhamm/WBoson/CMSSW_11_0_0/src/Data_Manager/AnalysisDatasetManager",
         "WZAnalysis", "Zselection")
     draw_expr = test.getHistDrawExpr("l1Pt", "wz3lnu-powheg", "eee")
     hist_name = draw_expr.split(">>")[1].split("(")[0]

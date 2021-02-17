@@ -4,6 +4,21 @@ info = {
         "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
         "DAS Name" : ""
     },
+    "DYm50_minnlo_prod" : {
+        "cross_section" : 1976.17,
+        "Source of cross section" : "gridpack",
+        "DAS Name" : ""
+    },
+    "dy_nlo_ew" : {
+        "cross_section" : 2027.08,
+        "Source of cross section" : "gridpack",
+        "DAS Name" : ""
+    },
+    "dy_nlo_qcd" : {
+        "cross_section" : 2000.02,
+        "Source of cross section" : "gridpack",
+        "DAS Name" : ""
+    },
     "DYm50_minnlo_pilot" : {
         "cross_section" : 1989.25,
         "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",

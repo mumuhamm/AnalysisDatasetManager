@@ -67,7 +67,7 @@ info = {
             "wmmunu_minnlo_svn3756_hoppet"
         ]
     },
-    "wmunu_minnlo_prod" : {
+    "wpmunu_minnlo_svn3756_hoppet" : {
         "Name" : "W(#mu#nu) MiNNLO (arXiv:2006.04133)",
         "Style" : "qual12_orange",
         "Members" : [
@@ -83,24 +83,52 @@ info = {
         ]
     },
     "wpmunu_minnlo_svn3756_hoppet" : {
-        "Name" : "W^{+}(#mu#nu) MiNNLO (arXiv:2006.04133)",
-        "Style" : "qual12_orange",
+        "Name" : "W(#mu#nu) MiNNLO (arXiv:2006.04133)",
+        "Style" : "qual12_blue",
         "Members" : [
             "wpmunu_minnlo_svn3756_hoppet"
+        ]
+    },
+    "wpmunu_nlo_ew" : {
+        "Name" : "W(#mu#nu) NLO QCD+EW",
+        "Style" : "qual12_brown",
+        "Members" : [
+            "wpmunu_nloew"
+        ]
+    },
+    "wmmunu_nlo_ew" : {
+        "Name" : "W^{-}(#mu#nu) NLO QCD+EW (arXiv:1612.02841)",
+        "Style" : "qual12_brown",
+        "Members" : [
+            "wmmunu_nloew"
+        ]
+    },
+    "wmmunu_nlo_qcd" : {
+        "Name" : "W^{-}(#mu#nu) NLOQCD (arXiv:1612.02841)",
+        "Style" : "qual12_green",
+        "Members" : [
+            "wmmunu_nloqcd"
+        ]
+    },
+    "wpmunu_nlo_qcd" : {
+        "Name" : "W(#mu#nu) NLOQCD (arXiv:1612.02841)",
+        "Style" : "qual12_green",
+        "Members" : [
+            "wpmunu_nlo_qcd"
         ]
     },
     "wmmunu_minnlo_prod" : {
         "Name" : "W^{-}(#mu#nu) MiNNLO (arXiv:2006.04133)",
         "Style" : "qual12_orange",
         "Members" : [
-            "wmmunu_minnlo_svn3756_hoppet"
+            "wmmunu_minnlo_prod"
         ]
     },
     "wpmunu_minnlo_prod" : {
-        "Name" : "W^{+}(#mu#nu) MiNNLO (arXiv:2006.04133)",
+        "Name" : "W (#mu#nu) MiNNLO (arXiv:2006.04133)",
         "Style" : "qual12_orange",
         "Members" : [
-            "wpmunu_minnlo_svn3756_hoppet"
+            "wpmunu_minnlo_prod"
         ]
     },
     "wmmunu_minnlo_svn3756_hoppet_lhe" : {
@@ -388,13 +416,6 @@ info = {
             "wpenu_nloew__photos"
         ],
         "Scale" : 0.5,
-    },
-    "wpenu_nloew" : {
-        "Name" : "W(e#nu) NLO QCD+EW",
-        "Style" : "qual12_brown",
-        "Members" : [
-            "wpenu_nloew"
-        ]
     },
     "wpenu_nloewConf_noew" : {
         "Name" : "W(e#nu)+jets NLO QCD",

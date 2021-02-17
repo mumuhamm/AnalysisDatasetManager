@@ -92,9 +92,19 @@ info = {
         "plot_group" : "dy_minlo_svn3756_hoppet"
     },
     "DYm50_minnlo_prod" : {
-        "file_path" : "/eos/cms/store/cmst3/user/kelong/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/RunIISummer20UL16wmLHEGEN/201012_222536/000*/*.root",
+        "file_path" : "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoGen/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/NanoGen/201026_082255/000*/*.root",
         "DAS" : "",
         "plot_group" : "dy_minlo_prod"
+    },
+    "dy_nlo_ew" : {
+        "file_path" : "/eos/user/m/mumuhamm/powheg/drellyan/WplusToMuNu-13TeV-minnlolike-powheg-NLOEW/*/*/*/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_nlo_ew"
+    },
+    "dy_nlo_qcd" : {
+        "file_path" : "/eos/user/m/mumuhamm/powheg/drellyan_nloqcd/WplusToMuNu-13TeV-minnlolike-powheg-NLOEW/*/*/*/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_nlo_qcd"
     },
     "DYm50_nlo_inc_ewparams" : {
         "file_path" : "/eos/home-c/choij/Samples/DYJetsToLL_MG271_amcatnlo-pythia8/RunIISummer15wmLHEGS/201012_091934/000*/*.root",

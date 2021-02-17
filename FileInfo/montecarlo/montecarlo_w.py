@@ -65,10 +65,22 @@ info = {
     "wlnu_2j_nlo" : {
         "cross_section" : 3118.08,
     },
-    "wpenu_nloew" : {
-        "cross_section" : 11638.57,
+    "wpmunu_nloew" : {
+        "cross_section" : 11654.2,
         "DAS Name" : "",
         "Generator" : "POWHEG + Photos",
+        "Cards" : ""
+    },
+    "wmmunu_nloew" : {
+        "cross_section" : 8678.29,
+        "DAS Name" : "",
+        "Generator" : "POWHEG + Photos",
+        "Cards" : ""
+    },
+    "wmmunu_nloqcd" : {
+        "cross_section" : 8687.04,
+        "DAS Name" : "",
+        "Generator" : "POWHEG",
         "Cards" : ""
     },
     "wpenu_nloewConf_noew" : {
@@ -76,6 +88,18 @@ info = {
         "DAS Name" : "",
         "Generator" : "POWHEG + Photos",
         "Cards" : ""
+    },
+    "wpmunu_minnlo_prod" : {
+        "cross_section" : 11572.19,
+        "DAS Name" : "",
+        "Generator" : "POWHEG NNLOPS",
+        "Cards" : "",
+    },
+    "wmmunu_minnlo_prod" : {
+        "cross_section" : 8562.66,
+        "DAS Name" : "",
+        "Generator" : "POWHEG NNLOPS",
+        "Cards" : "",
     },
     "wpmunu_minnlo" : {
         "cross_section" : 11170.4,
@@ -131,6 +155,12 @@ info = {
         "cross_section" : 11572.19,
         "DAS Name" : "",
         "Generator" : "POWHEG MiNNLO",
+        "Cards" : "",
+    },
+    "wpmunu_nlo_qcd" : {
+        "cross_section" : 11684.20,
+        "DAS Name" : "",
+        "Generator" : "POWHEG QCD",
         "Cards" : "",
     },
     "wmmunu_minnlo_svn3756_hoppet" : {

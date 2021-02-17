@@ -51,6 +51,21 @@ info = {
             "SetMaximum" : 250000000
         }
     },
+    "Ratio_Wmass": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 200,
+            "xmin": 70,
+            "xmax": 90
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Bare/Dressed m_{W} [GeV]",
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 250000000
+        }
+    },
     "mTmet": {  
         "Initialize": {  
             "type": "TH1D",
@@ -336,10 +351,10 @@ info = {
             "type": "TH1D",
             "nbins": 100,
             "xmin": 0,
-            "xmax": 0.1
+            "xmax": 3.0
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": r"\DeltaR(\gamma, \ell)_{\mathrm{min}}\,[GeV]",  
+            "GetXaxis().SetTitle": r"\DeltaR(\gamma, \ell)_{\mathrm{max}}\,[GeV]",  
             "GetYaxis().SetTitle": "Events / GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.1,
@@ -350,7 +365,7 @@ info = {
             "type": "TH1D",
             "nbins": 100,
             "xmin": 0,
-            "xmax": 0.1
+            "xmax": 3.0
         },
         "Attributes": {  
             "GetXaxis().SetTitle": r"\DeltaR(\gamma, \ell)_{\mathrm{min}}\,[GeV]",  
