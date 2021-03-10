@@ -65,19 +65,19 @@ info = {
     "wlnu_2j_nlo" : {
         "cross_section" : 3118.08,
     },
-    "wpmunu_nloew" : {
+    "wpmunu_nlo_ew" : {
         "cross_section" : 11654.2,
         "DAS Name" : "",
         "Generator" : "POWHEG + Photos",
         "Cards" : ""
     },
-    "wmmunu_nloew" : {
+    "wmmunu_nlo_ew" : {
         "cross_section" : 8678.29,
         "DAS Name" : "",
         "Generator" : "POWHEG + Photos",
         "Cards" : ""
     },
-    "wmmunu_nloqcd" : {
+    "wmmunu_nlo_qcd" : {
         "cross_section" : 8687.04,
         "DAS Name" : "",
         "Generator" : "POWHEG",

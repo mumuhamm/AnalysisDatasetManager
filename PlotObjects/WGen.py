@@ -54,12 +54,27 @@ info = {
     "Ratio_Wmass": {
         "Initialize": {
             "type": "TH1D",
-            "nbins": 200,
-            "xmin": 70,
-            "xmax": 90
+            "nbins": 800,
+            "xmin": 0.0,
+            "xmax": 1.2
         },
         "Attributes": {
-            "GetXaxis().SetTitle": "Bare/Dressed m_{W} [GeV]",
+            "GetXaxis().SetTitle": "Bare/Dressed m_{W}",
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 250000000
+        }
+    },
+    "Ratio_leppT": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 800,
+            "xmin": 0.0,
+            "xmax": 1.2
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Bare/Dressed \ell^{p_{T}}",
             "GetYaxis().SetTitle": "Events / GeV",
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,

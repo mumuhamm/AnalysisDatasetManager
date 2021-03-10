@@ -284,6 +284,163 @@ info = {
             "SetMinimum" : 0.1,
         }
     },
+    "Ratio_Zmass": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 200,
+            "xmin": 0,
+            "xmax": 1.1
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Bare/Dressed m_{Z} ",
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 250000000
+        }
+    },
+    "Ratio_lep1pT": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 800,
+            "xmin": 0.0,
+            "xmax": 1.1
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Bare/Dressed \ell_{1}^{p_{T}}",
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 250000000
+        }
+    },
+    "Ratio_lep2pT": {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 800,
+            "xmin": 0.0,
+            "xmax": 1.1
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Bare/Dressed \ell_{2}^{p_{T}}",
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 250000000
+        }
+    },
+    "dRlgamma_maxptassoc1" : {
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": 0,
+            "xmax": 3.0
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": r"\DeltaR(\gamma, l_{1})_{\mathrm{max}}\,[GeV]",
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.1,
+        }
+    },
+    "dRlgamma_maxptassoc2" : {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": 0,
+            "xmax": 3.0
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": r"\DeltaR(\gamma, l_{2})_{\mathrm{max}}\,[GeV]",
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.1,
+        }
+    },
+    "dRlgamma_minassoc1" : {
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": 0,
+            "xmax": 3.0
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": r"\DeltaR(\gamma, l_{1})_{\mathrm{min}}\,[GeV]",
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.1,
+        }
+    },
+    "dRlgamma_minassoc2" : {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": 0,
+            "xmax": 3.0
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": r"\DeltaR(\gamma, l_{2})_{\mathrm{min}}\,[GeV]",
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.1,
+        }
+    },
+    "ptg_closeassoc1" : {
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 120,
+            "xmin": 0,
+            "xmax": 120
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Closest(l_{1}) assoc photon p_{T}  [GeV]",
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.01,
+        }
+    },
+    "ptg_closeassoc2" : {
+        "Initialize": {
+            "type": "TH1D",
+            "nbins": 120,
+            "xmin": 0,
+            "xmax": 120
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Closest (l_{2}) assoc photon p_{T}  [GeV]",
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.01,
+        }
+    },
+    "ptgmax_assoc" : {
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 120,
+            "xmin": 0,
+            "xmax": 120
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Max assoc photon p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.01,
+        }
+    },
+   "nGammaAssoc" : {
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 0,
+            "xmax": 10
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "# associated photons",  
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.01,
+        }
+    },
     "CutFlow": {  
         "Initialize": {  
             "type": "TH1F",

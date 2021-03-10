@@ -94,7 +94,7 @@ info = {
     "DYm50_minnlo_prod" : {
         "file_path" : "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoGen/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/NanoGen/201026_082255/000*/*.root",
         "DAS" : "",
-        "plot_group" : "dy_minlo_prod"
+        "plot_group" : "dy_minnlo_prod"
     },
     "dy_nlo_ew" : {
         "file_path" : "/eos/user/m/mumuhamm/powheg/drellyan/WplusToMuNu-13TeV-minnlolike-powheg-NLOEW/*/*/*/*.root",

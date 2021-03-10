@@ -93,21 +93,21 @@ info = {
         "Name" : "W(#mu#nu) NLO QCD+EW",
         "Style" : "qual12_brown",
         "Members" : [
-            "wpmunu_nloew"
+            "wpmunu_nlo_ew"
         ]
     },
     "wmmunu_nlo_ew" : {
         "Name" : "W^{-}(#mu#nu) NLO QCD+EW (arXiv:1612.02841)",
         "Style" : "qual12_brown",
         "Members" : [
-            "wmmunu_nloew"
+            "wmmunu_nlo_ew"
         ]
     },
     "wmmunu_nlo_qcd" : {
         "Name" : "W^{-}(#mu#nu) NLOQCD (arXiv:1612.02841)",
         "Style" : "qual12_green",
         "Members" : [
-            "wmmunu_nloqcd"
+            "wmmunu_nlo_qcd"
         ]
     },
     "wpmunu_nlo_qcd" : {
